@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+  window.awooSiteSearch = { init: function (c) { var a, b; document.getElementById("awoo-site-search-js") || ((a = document.createElement("script")).type = "text/javascript", a.id = "awoo-site-search-js", a.async = !0, a.charset = "UTF-8", a.src = "https://api.awoo.org/libs/sitesearch-sdk-js-latest.min.js", (b = document.getElementsByTagName("script")[0]).parentNode.insertBefore(a, b)), function () { var a = setInterval(function () { if (window.SiteSearchSDK) return clearInterval(a), c() }, 300) }() } }
+	awooSiteSearch.init( function() {
+		new SiteSearchSDK('5961476723') // 插入目標客戶的 cupid_id
+	})
+</script>
+<script type="text/javascript" src="https://api.awoo.org/libs/5961476723/aaio-latest.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<div id="awoo-search-result-page"></div>
+
+<div class="awoo-keyword-popular-tags"></div>
+<div class="awoo-keyword-popular-products"></div>
+</body>
+</html>
